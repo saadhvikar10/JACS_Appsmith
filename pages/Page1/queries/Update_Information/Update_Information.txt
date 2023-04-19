@@ -1,0 +1,4 @@
+{
+	"first_name": {{EmployeeUpdateForm.data.FirstName}},
+	"last_name": {{EmployeeUpdateForm.data.LastName}},
+}
