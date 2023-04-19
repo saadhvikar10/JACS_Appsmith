@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Update_Information",
+    "name": "Add_Employee",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/e/employees/{{EmployeeTable.selectedRow.employee_id}}"
+        "url": "web:4000/e/employees"
       },
       "invalids": [],
       "messages": [],
@@ -29,9 +29,9 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n\t\"first_name\": {{EmployeeUpdateForm.data.FirstName}},\n\t\"last_name\": {{EmployeeUpdateForm.data.LastName}},\n}",
+      "body": "{\n\t\"first_name\": {{AddEmployeeFirst.inputText}},\n\t\"last_name\": {{AddEmployeeLast.inputText}},\n\t\"role\": {{AddEmployeeRole.selectedOptionValue}}\n}",
       "bodyFormData": [],
-      "httpMethod": "PUT",
+      "httpMethod": "POST",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -45,9 +45,6 @@
     "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
-        "key": "datasourceUrl"
-      },
-      {
         "key": "body"
       }
     ],
@@ -55,16 +52,16 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "EmployeeTable.selectedRow.employee_id",
-      "EmployeeUpdateForm.data.FirstName",
-      "EmployeeUpdateForm.data.LastName"
+      "AddEmployeeFirst.inputText",
+      "AddEmployeeLast.inputText",
+      "AddEmployeeRole.selectedOptionValue"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page1_Update_Information",
+  "id": "Page1_Add_Employee",
   "deleted": false,
-  "gitSyncId": "64401c9baa53e22c8ad2d3f3_64401e5baa53e22c8ad2d400"
+  "gitSyncId": "64401c9baa53e22c8ad2d3f3_644022a7aa53e22c8ad2d406"
 }
