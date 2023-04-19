@@ -1,7 +1,7 @@
 {
   "pages": [
     {
-      "id": "Order Page",
+      "id": "Page1",
       "isDefault": true
     }
   ],
@@ -10,12 +10,6 @@
   "unreadCommentThreads": 0,
   "color": "#C2DAF0",
   "icon": "cat",
-  "unpublishedAppLayout": {
-    "type": "FLUID"
-  },
-  "publishedAppLayout": {
-    "type": "FLUID"
-  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
