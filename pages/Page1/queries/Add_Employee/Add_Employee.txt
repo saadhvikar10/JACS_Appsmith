@@ -1,5 +1,0 @@
-{
-	"first_name": {{AddEmployeeFirst.inputText}},
-	"last_name": {{AddEmployeeLast.inputText}},
-	"role": {{AddEmployeeRole.selectedOptionValue}}
-}
