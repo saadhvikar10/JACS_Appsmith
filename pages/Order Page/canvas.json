@@ -207,6 +207,7 @@
             {
               "boxShadow": "none",
               "widgetName": "IconButton1",
+              "onClick": "{{GetCustomer.run()}}",
               "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
               "displayName": "Icon Button",
               "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
@@ -221,6 +222,11 @@
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 12.5625,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
               "leftColumn": 19,
               "dynamicBindingPathList": [
                 {
@@ -343,7 +349,7 @@
               "widgetId": "2rdcfsa3s6",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "showStepArrows": false,
-              "errorMessage": "/",
+              "errorMessage": "",
               "minWidth": 450,
               "isVisible": true,
               "label": "UserID",
