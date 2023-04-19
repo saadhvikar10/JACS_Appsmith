@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "EmployeeInfo",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -64,7 +64,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page1_Update_Information",
+  "id": "EmployeeInfo_Update_Information",
   "deleted": false,
   "gitSyncId": "64401c9baa53e22c8ad2d3f3_64401e5baa53e22c8ad2d400"
 }
