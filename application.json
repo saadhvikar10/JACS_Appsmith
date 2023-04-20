@@ -7,6 +7,10 @@
     {
       "id": "Employee Information Page",
       "isDefault": false
+    },
+    {
+      "id": "Barista Orders",
+      "isDefault": false
     }
   ],
   "viewMode": false,
