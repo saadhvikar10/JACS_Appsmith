@@ -1,8 +1,7 @@
 {
   "pages": [
     {
-
-      "id": "Points",
+      "id": "Order Page",
       "isDefault": false
     },
     {
@@ -11,7 +10,7 @@
     },
     {
       "id": "Post Rewards",
-        "isDefault": false
+      "isDefault": false
     },
     {
       "id": "Order Page",
@@ -23,7 +22,6 @@
     },
     {
       "id": "Barista Orders",
-
       "isDefault": false
     }
   ],

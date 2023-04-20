@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Points",
+    "pageId": "Order Page",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -49,7 +49,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Points_Get_points",
+  "id": "Order Page_Get_points",
   "deleted": false,
   "gitSyncId": "644166924b61fe2ca4968012_644167314b61fe2ca4968017"
 }
