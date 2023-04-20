@@ -60,7 +60,7 @@
                 }
               ],
               "labelPosition": "Top",
-              "options": "[\n  {\n    \"label\": \"Coffee\",\n    \"value\": \"COFFEE\",\n    \"children\": [\n      {\n        \"label\": \"Espresso\",\n        \"value\": \"ESPRESSO\"\n      },\n      {\n        \"label\": \"Americano\",\n        \"value\": \"AMERICANO\"\n      },\n\t\t\t{\n\t\t\t\"label\": \n\t\t\t\"Latte\",\n\t\t\t\t\"value\":\n\t\t\t\t\"LATTE\"\n\t\t\t},\n{\n\t\t\t\"label\": \n\t\t\t\"Cappuccino\",\n\t\t\t\t\"value\":\n\t\t\t\t\"CAPPUCCINO\"\n\t\t\t},\n\t\t\t{\n\t\t\t\"label\": \n\t\t\t\"Mocha\",\n\t\t\t\t\"value\":\n\t\t\t\t\"MOCHA\"\n\t\t\t},\n\t\t\t\n\t\t\t{\n\t\t\t\"label\": \n\t\t\t\"Macchiato\",\n\t\t\t\t\"value\":\n\t\t\t\t\"MACCHIATO\"\n\t\t\t},\n\t\t\t\n\t\t\t{\n\t\t\t\"label\": \n\t\t\t\"Flat White\",\n\t\t\t\t\"value\":\n\t\t\t\t\"FLAT WHITE\"\n\t\t\t},\n\t\t\t{\n\t\t\t\"label\": \n\t\t\t\"Drip Coffee\",\n\t\t\t\t\"value\":\n\t\t\t\t\"DRIP COFFEE\"\n\t\t\t},\n\t\t\t\n\t\t\t{\n\t\t\t\"label\": \n\t\t\t\"Cold Brew\",\n\t\t\t\t\"value\":\n\t\t\t\t\"COLD BREW\"\n\t\t\t},\n\t\t\t\n\t\t\t{\n\t\t\t\"label\": \n\t\t\t\"Iced Coffee\",\n\t\t\t\t\"value\":\n\t\t\t\t\"ICED COFFEE\"\n\t\t\t}\n\t\t\t\t\t\t\n    ]\n  },\n  {\n    \"label\": \"Tea\",\n    \"value\": \"TEA\",\n\t\t\"children\": [\n      {\n        \"label\": \"Chai\",\n        \"value\": \"CHAI\"\n      },\n      {\n        \"label\": \"Green \",\n        \"value\": \"GREEN\"\n      },\n\t\t\t{\n\t\t\t\"label\": \n\t\t\t\"Herbal \",\n\t\t\t\t\"value\":\n\t\t\t\t\"HERBAL\"\n\t\t\t}\n  ]\n\t},\n  {\n    \"label\": \"Other\",\n    \"value\": \"OTHER\",\n\t\t\"children\": [\n      {\n        \"label\": \"Frappuccino\",\n        \"value\": \"FRAPPUCCINO\"\n      },\n      {\n        \"label\": \"Hot Chocolate \",\n        \"value\": \"HOT CHOCOLATE\"\n      }\n\t\t]\t\n\t\t}\n]\n\n\n\n",
+              "options": "[\n  {\n    \"label\": \"Coffee\",\n    \"value\": \"COFFEE\",\n    \"children\": [\n      {\n        \"label\": \"Espresso\",\n        \"value\": \"1\"\n      },\n      {\n        \"label\": \"Americano\",\n        \"value\": \"2\"\n      },\n\t\t\t{\n\t\t\t\"label\": \n\t\t\t\"Latte\",\n\t\t\t\t\"value\":\n\t\t\t\t\"3\"\n\t\t\t},\n{\n\t\t\t\"label\": \n\t\t\t\"Cappuccino\",\n\t\t\t\t\"value\":\n\t\t\t\t\"4\"\n\t\t\t},\n\t\t\t{\n\t\t\t\"label\": \n\t\t\t\"Mocha\",\n\t\t\t\t\"value\":\n\t\t\t\t\"5\"\n\t\t\t},\n\t\t\t\n\t\t\t{\n\t\t\t\"label\": \n\t\t\t\"Macchiato\",\n\t\t\t\t\"value\":\n\t\t\t\t\"6\"\n\t\t\t},\n\t\t\t\n\t\t\t{\n\t\t\t\"label\": \n\t\t\t\"Flat White\",\n\t\t\t\t\"value\":\n\t\t\t\t\"7\"\n\t\t\t},\n\t\t\t{\n\t\t\t\"label\": \n\t\t\t\"Drip Coffee\",\n\t\t\t\t\"value\":\n\t\t\t\t\"8\"\n\t\t\t},\n\t\t\t\n\t\t\t{\n\t\t\t\"label\": \n\t\t\t\"Cold Brew\",\n\t\t\t\t\"value\":\n\t\t\t\t\"9\"\n\t\t\t},\n\t\t\t\n\t\t\t{\n\t\t\t\"label\": \n\t\t\t\"Iced Coffee\",\n\t\t\t\t\"value\":\n\t\t\t\t\"10\"\n\t\t\t}\n\t\t\t\t\t\t\n    ]\n  },\n  {\n    \"label\": \"Tea\",\n    \"value\": \"11\",\n\t\t\"children\": [\n      {\n        \"label\": \"Chai\",\n        \"value\": \"12\"\n      },\n      {\n        \"label\": \"Green \",\n        \"value\": \"13\"\n      },\n\t\t\t{\n\t\t\t\"label\": \n\t\t\t\"Herbal \",\n\t\t\t\t\"value\":\n\t\t\t\t\"14\"\n\t\t\t}\n  ]\n\t},\n  {\n    \"label\": \"Other\",\n    \"value\": \"OTHER\",\n\t\t\"children\": [\n      {\n        \"label\": \"Frappuccino\",\n        \"value\": \"15\"\n      },\n      {\n        \"label\": \"Hot Chocolate \",\n        \"value\": \"16\"\n      }\n\t\t]\t\n\t\t}\n]\n\n\n\n",
               "placeholderText": "Select option",
               "isDisabled": false,
               "key": "ejwm5pvq6j",
@@ -82,7 +82,7 @@
               "responsiveBehavior": "fill",
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "onOptionChange": "{{storeValue(Drink.selectedOptionLabel,Drink.selectedOptionValue)}}",
+              "onOptionChange": "{{storeValue('drink',Drink.selectedOptionLabel)}}",
               "allowClear": false,
               "minDynamicHeight": 4
             },
@@ -142,7 +142,7 @@
               "responsiveBehavior": "fill",
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "onOptionChange": "{{storeValue(Milk.selectedOptionLabel,Milk.selectedOptionValue)}}",
+              "onOptionChange": "{{storeValue('milk',Milk.selectedOptionValue)}}",
               "minDynamicHeight": 4
             },
             {
@@ -201,13 +201,13 @@
               "responsiveBehavior": "fill",
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "onOptionChange": "{{storeValue(Toppings.selectedOptionLabel,Toppings.selectedOptionValue)}}",
+              "onOptionChange": "{{storeValue('toppings',Toppings.selectedOptionValue)}}",
               "minDynamicHeight": 4
             },
             {
               "boxShadow": "none",
               "widgetName": "IconButton1",
-              "onClick": "{{GetCustomer.run()}}",
+              "onClick": "{{GetCustomer.run(() => showAlert('\"Order successfully placed\"','success'), () => showAlert('\"Not able to place order \"','error'))}}",
               "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
               "displayName": "Icon Button",
               "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
@@ -325,7 +325,11 @@
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 12.5625,
-              "dynamicTriggerPathList": [],
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onTextChanged"
+                }
+              ],
               "resetOnSubmit": true,
               "leftColumn": 17,
               "dynamicBindingPathList": [
@@ -343,6 +347,7 @@
               "key": "8xqeaj3c2r",
               "labelTextSize": "0.875rem",
               "isRequired": false,
+              "onTextChanged": "{{storeValue('username',User.text)}}",
               "isDeprecated": false,
               "rightColumn": 37,
               "dynamicHeight": "FIXED",

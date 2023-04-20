@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "localhost:8001/c/placeOrder"
+        "url": "web:4000/c/placeOrder"
       },
       "invalids": [],
       "messages": [],
@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{\n\n\n\n}}",
+      "body": "{\n\"drink_id\": {{Drink.selectedOptionValue}},\n\"user_id\": {{appsmith.store.username}}\n\n}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],
@@ -52,7 +52,8 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "\n\n\n\n"
+      "Drink.selectedOptionValue",
+      "appsmith.store.username"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

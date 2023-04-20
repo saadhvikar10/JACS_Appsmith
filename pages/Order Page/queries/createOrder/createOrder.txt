@@ -1,5 +1,5 @@
-{{
+{
+"drink_id": {{Drink.selectedOptionValue}},
+"user_id": {{appsmith.store.username}}
 
-
-
-}}
+}
