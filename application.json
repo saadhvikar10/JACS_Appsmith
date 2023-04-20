@@ -23,6 +23,10 @@
     {
       "id": "Barista Orders",
       "isDefault": false
+    },
+    {
+      "id": "Points",
+      "isDefault": false
     }
   ],
   "viewMode": false,
