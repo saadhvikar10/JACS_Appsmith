@@ -1,0 +1,4 @@
+{
+	"first_name": {{Update_First_Name.inputText}},
+	"last_name": {{Update_Last_Name.inputText}}
+}

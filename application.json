@@ -3,6 +3,10 @@
     {
       "id": "Order Page",
       "isDefault": true
+    },
+    {
+      "id": "Employee Information Page",
+      "isDefault": false
     }
   ],
   "viewMode": false,

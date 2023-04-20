@@ -1,0 +1,5 @@
+{
+	"first_name": {{Add_First_Name.inputText}},
+	"last_name": {{Add_Last_Name.inputText}},
+	"role": {{Add_Role.inputText}}
+}
