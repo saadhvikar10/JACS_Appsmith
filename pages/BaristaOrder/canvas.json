@@ -28,33 +28,12 @@
           "children": [
             {
               "boxShadow": "none",
-              "widgetName": "Delete_Order",
-              "displayName": "Input",
               "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
               "onSubmit": "{{Del_Order.run(() => removeValue(), () => removeValue())}}",
-              "searchTags": [
-                "form",
-                "text input",
-                "number",
-                "textarea"
-              ],
               "topRow": 2,
-              "bottomRow": 9,
-              "parentRowSpace": 10,
               "labelWidth": 5,
-              "autoFocus": false,
               "type": "INPUT_WIDGET_V2",
-              "hideCard": false,
               "animateLoading": true,
-              "parentColumnSpace": 14.0625,
-              "dynamicTriggerPathList": [
-                {
-                  "key": "onTextChanged"
-                },
-                {
-                  "key": "onSubmit"
-                }
-              ],
               "resetOnSubmit": true,
               "leftColumn": 1,
               "dynamicBindingPathList": [
@@ -65,30 +44,52 @@
                   "key": "borderRadius"
                 }
               ],
-              "labelPosition": "Top",
               "labelStyle": "",
-              "inputType": "TEXT",
+              "inputType": "NUMBER",
               "isDisabled": false,
+              "validation": "",
+              "isRequired": false,
+              "dynamicHeight": "FIXED",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "showStepArrows": false,
+              "isVisible": true,
+              "version": 2,
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "widgetName": "Delete_Order",
+              "displayName": "Input",
+              "searchTags": [
+                "form",
+                "text input",
+                "number",
+                "textarea"
+              ],
+              "bottomRow": 9,
+              "parentRowSpace": 10,
+              "autoFocus": false,
+              "hideCard": false,
+              "parentColumnSpace": 14.0625,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onTextChanged"
+                },
+                {
+                  "key": "onSubmit"
+                }
+              ],
+              "labelPosition": "Top",
               "key": "ht9e7jf4b9",
               "labelTextSize": "0.875rem",
-              "isRequired": false,
               "onTextChanged": "",
               "isDeprecated": false,
               "rightColumn": 21,
-              "dynamicHeight": "FIXED",
               "widgetId": "q33x0nron7",
-              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-              "showStepArrows": false,
               "minWidth": 450,
-              "isVisible": true,
               "label": "Label",
-              "version": 2,
               "parentId": "0",
               "labelAlignment": "left",
               "renderMode": "CANVAS",
-              "isLoading": false,
               "responsiveBehavior": "fill",
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
               "iconAlign": "left",
               "defaultText": "",
