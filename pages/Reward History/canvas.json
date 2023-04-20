@@ -1,0 +1,645 @@
+{
+  "unpublishedPage": {
+    "name": "Reward History",
+    "slug": "reward-history",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 590,
+          "containerStyle": "none",
+          "snapRows": 81,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 77,
+          "minHeight": 830,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "borderColor": "#E0DEDE",
+              "isVisibleDownload": true,
+              "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
+              "topRow": 32,
+              "isSortable": true,
+              "type": "TABLE_WIDGET_V2",
+              "inlineEditingSaveOption": "ROW_LEVEL",
+              "animateLoading": true,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                },
+                {
+                  "key": "tableData"
+                },
+                {
+                  "key": "primaryColumns.discount.computedValue"
+                },
+                {
+                  "key": "primaryColumns.exp_date.computedValue"
+                },
+                {
+                  "key": "primaryColumns.item.computedValue"
+                },
+                {
+                  "key": "primaryColumns.pointValue.computedValue"
+                },
+                {
+                  "key": "primaryColumns.reward_id.computedValue"
+                },
+                {
+                  "key": "primaryColumns.user_id.computedValue"
+                }
+              ],
+              "needsHeightForContent": true,
+              "leftColumn": 10,
+              "delimiter": ",",
+              "defaultSelectedRowIndex": 0,
+              "showInlineEditingOptionDropdown": true,
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisibleFilters": true,
+              "isVisible": true,
+              "enableClientSideSearch": true,
+              "version": 1,
+              "totalRecordsCount": 0,
+              "isLoading": false,
+              "childStylesheet": {
+                "button": {
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "menuButton": {
+                  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "iconButton": {
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "editActions": {
+                  "saveButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "saveBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                }
+              },
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "columnUpdatedAt": 1681947538622,
+              "originalBottomRow": 59,
+              "defaultSelectedRowIndices": [
+                0
+              ],
+              "widgetName": "Get_rewards_table",
+              "defaultPageSize": 0,
+              "columnOrder": [
+                "discount",
+                "exp_date",
+                "item",
+                "pointValue",
+                "reward_id",
+                "user_id"
+              ],
+              "dynamicPropertyPathList": [],
+              "displayName": "Table",
+              "bottomRow": 59,
+              "columnWidthMap": {
+                "task": 245,
+                "step": 70,
+                "status": 85
+              },
+              "parentRowSpace": 10,
+              "hideCard": false,
+              "parentColumnSpace": 20.0625,
+              "dynamicTriggerPathList": [],
+              "borderWidth": "1",
+              "primaryColumns": {
+                "discount": {
+                  "allowCellWrapping": false,
+                  "index": 0,
+                  "width": 150,
+                  "originalId": "discount",
+                  "id": "discount",
+                  "alias": "discount",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "number",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Discount",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Get_rewards_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"discount\"]))}}",
+                  "sticky": "",
+                  "validation": {}
+                },
+                "exp_date": {
+                  "allowCellWrapping": false,
+                  "index": 1,
+                  "width": 150,
+                  "originalId": "exp_date",
+                  "id": "exp_date",
+                  "alias": "exp_date",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Reward Exp. Date",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Get_rewards_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"exp_date\"]))}}",
+                  "sticky": "",
+                  "validation": {}
+                },
+                "item": {
+                  "allowCellWrapping": false,
+                  "index": 2,
+                  "width": 150,
+                  "originalId": "item",
+                  "id": "item",
+                  "alias": "item",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Item",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Get_rewards_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"item\"]))}}",
+                  "sticky": "",
+                  "validation": {}
+                },
+                "pointValue": {
+                  "allowCellWrapping": false,
+                  "index": 3,
+                  "width": 150,
+                  "originalId": "pointValue",
+                  "id": "pointValue",
+                  "alias": "pointValue",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "number",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Point Cost",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Get_rewards_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"pointValue\"]))}}",
+                  "sticky": "",
+                  "validation": {}
+                },
+                "reward_id": {
+                  "allowCellWrapping": false,
+                  "index": 4,
+                  "width": 150,
+                  "originalId": "reward_id",
+                  "id": "reward_id",
+                  "alias": "reward_id",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "number",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "Reward ID",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Get_rewards_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"reward_id\"]))}}",
+                  "sticky": "",
+                  "validation": {}
+                },
+                "user_id": {
+                  "allowCellWrapping": false,
+                  "index": 5,
+                  "width": 150,
+                  "originalId": "user_id",
+                  "id": "user_id",
+                  "alias": "user_id",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "number",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "User ID",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Get_rewards_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"user_id\"]))}}",
+                  "sticky": "",
+                  "validation": {}
+                }
+              },
+              "key": "46vehgdqz2",
+              "canFreezeColumn": true,
+              "isDeprecated": false,
+              "rightColumn": 55,
+              "textSize": "0.875rem",
+              "widgetId": "92hch1d7kk",
+              "minWidth": 450,
+              "tableData": "{{Get_rewards.data}}",
+              "label": "Data",
+              "searchKey": "",
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "horizontalAlignment": "LEFT",
+              "isVisibleSearch": true,
+              "responsiveBehavior": "fill",
+              "originalTopRow": 32,
+              "isVisiblePagination": true,
+              "verticalAlignment": "CENTER"
+            },
+            {
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "borderColor": "#E0DEDE",
+              "widgetName": "Get_Rewards_Form",
+              "isCanvas": true,
+              "displayName": "Form",
+              "iconSVG": "/static/media/icon.ea3e08d130e59c56867ae40114c10eed.svg",
+              "searchTags": [
+                "group"
+              ],
+              "topRow": 5,
+              "bottomRow": 26,
+              "parentRowSpace": 10,
+              "type": "FORM_WIDGET",
+              "hideCard": false,
+              "shouldScrollContents": true,
+              "animateLoading": true,
+              "parentColumnSpace": 20.0625,
+              "leftColumn": 18,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                }
+              ],
+              "children": [
+                {
+                  "widgetName": "Canvas2",
+                  "displayName": "Canvas",
+                  "topRow": 0,
+                  "bottomRow": 210,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "hideCard": true,
+                  "minHeight": 400,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [],
+                  "children": [
+                    {
+                      "widgetName": "get_rewards",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                      "searchTags": [
+                        "typography",
+                        "paragraph",
+                        "label"
+                      ],
+                      "topRow": 1,
+                      "bottomRow": 5,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 2,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "truncateButtonColor"
+                        },
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "text": "Find what rewards you've earned!",
+                      "key": "g9vj7qdk1c",
+                      "isDeprecated": false,
+                      "rightColumn": 61,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "AUTO_HEIGHT",
+                      "widgetId": "8ktyxyiumu",
+                      "minWidth": 450,
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "wmv88i6o1j",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "responsiveBehavior": "fill",
+                      "originalTopRow": 1,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "originalBottomRow": 9,
+                      "fontSize": "1.25rem",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "resetFormOnClick": true,
+                      "boxShadow": "none",
+                      "widgetName": "Button1",
+                      "onClick": "{{Get_rewards.run()}}",
+                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "displayName": "Button",
+                      "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+                      "searchTags": [
+                        "click",
+                        "submit"
+                      ],
+                      "topRow": 15,
+                      "bottomRow": 19,
+                      "type": "BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
+                      "leftColumn": 44,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "buttonColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "text": "Submit",
+                      "isDisabled": false,
+                      "key": "1szhyle0yy",
+                      "isDeprecated": false,
+                      "rightColumn": 60,
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "oypld9l3jw",
+                      "minWidth": 120,
+                      "isVisible": true,
+                      "recaptchaType": "V3",
+                      "version": 1,
+                      "parentId": "wmv88i6o1j",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "responsiveBehavior": "hug",
+                      "originalTopRow": 12,
+                      "disabledWhenInvalid": true,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "originalBottomRow": 16,
+                      "buttonVariant": "PRIMARY",
+                      "placement": "CENTER"
+                    },
+                    {
+                      "resetFormOnClick": true,
+                      "boxShadow": "none",
+                      "widgetName": "Button2",
+                      "onClick": "{{resetWidget(\"Get_rewards_table\",true)}}",
+                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "displayName": "Button",
+                      "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+                      "searchTags": [
+                        "click",
+                        "submit"
+                      ],
+                      "topRow": 15,
+                      "bottomRow": 19,
+                      "type": "BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
+                      "leftColumn": 27,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "buttonColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "text": "Reset",
+                      "isDisabled": false,
+                      "key": "1szhyle0yy",
+                      "isDeprecated": false,
+                      "rightColumn": 43,
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "gym0u0s3yc",
+                      "minWidth": 120,
+                      "isVisible": true,
+                      "recaptchaType": "V3",
+                      "version": 1,
+                      "parentId": "wmv88i6o1j",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "responsiveBehavior": "hug",
+                      "originalTopRow": 12,
+                      "disabledWhenInvalid": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "originalBottomRow": 16,
+                      "buttonVariant": "SECONDARY",
+                      "placement": "CENTER"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "rewards_user_id",
+                      "displayName": "Input",
+                      "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+                      "searchTags": [
+                        "form",
+                        "text input",
+                        "number",
+                        "textarea"
+                      ],
+                      "topRow": 6,
+                      "bottomRow": 13,
+                      "parentRowSpace": 10,
+                      "labelWidth": 5,
+                      "autoFocus": false,
+                      "type": "INPUT_WIDGET_V2",
+                      "maxNum": "1000",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 7.2109375,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onTextChanged"
+                        }
+                      ],
+                      "resetOnSubmit": true,
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "labelPosition": "Top",
+                      "labelStyle": "",
+                      "inputType": "NUMBER",
+                      "isDisabled": false,
+                      "key": "kvpsfw1h1w",
+                      "labelTextSize": "0.875rem",
+                      "isRequired": false,
+                      "onTextChanged": "{{storeValue('rwd_user_id',rewards_user_id.inputText)}}",
+                      "isDeprecated": false,
+                      "rightColumn": 40,
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "qdxuiwvjgq",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "showStepArrows": false,
+                      "minWidth": 450,
+                      "isVisible": true,
+                      "label": "User ID:",
+                      "version": 2,
+                      "parentId": "wmv88i6o1j",
+                      "labelAlignment": "left",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "responsiveBehavior": "fill",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "iconAlign": "left",
+                      "defaultText": "",
+                      "minDynamicHeight": 4
+                    }
+                  ],
+                  "key": "jquf8oo2rn",
+                  "isDeprecated": false,
+                  "rightColumn": 481.5,
+                  "detachFromLayout": true,
+                  "widgetId": "wmv88i6o1j",
+                  "containerStyle": "none",
+                  "minWidth": 450,
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "zosqtnb149",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "responsiveBehavior": "fill",
+                  "flexLayers": []
+                }
+              ],
+              "borderWidth": "1",
+              "positioning": "fixed",
+              "key": "kxefw7o69v",
+              "backgroundColor": "#FFFFFF",
+              "isDeprecated": false,
+              "rightColumn": 42,
+              "dynamicHeight": "AUTO_HEIGHT",
+              "widgetId": "zosqtnb149",
+              "minWidth": 450,
+              "isVisible": true,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "responsiveBehavior": "fill",
+              "originalTopRow": 5,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "maxDynamicHeight": 9000,
+              "originalBottomRow": 26,
+              "minDynamicHeight": 10
+            }
+          ]
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Reward History_Get_rewards",
+              "name": "Get_rewards",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "rewards_user_id.inputText"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Reward History",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "644166924b61fe2ca4968012_644167794b61fe2ca496801a"
+}
