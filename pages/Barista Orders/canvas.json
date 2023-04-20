@@ -317,7 +317,7 @@
               "textSize": "0.875rem",
               "widgetId": "8p4dtywshp",
               "minWidth": 450,
-              "tableData": "{{Get_Orders.data}}",
+              "tableData": "{{get_orders.data}}",
               "label": "Data",
               "searchKey": "",
               "parentId": "0",
@@ -399,7 +399,18 @@
             }
           ]
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Barista Orders_get_orders",
+              "name": "get_orders",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Barista Orders",
