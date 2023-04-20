@@ -1,0 +1,6 @@
+{
+	"discount": {{rewards_table.selectedRow.discount}},
+	"exp_date": {{rewards_table.selectedRow.exp_date}},
+	"item":{{rewards_table.selectedRow.item}},
+	"poin_value": {{rewards_table.selectedRow.pointValue}}
+}
