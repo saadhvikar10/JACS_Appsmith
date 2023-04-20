@@ -1,16 +1,8 @@
 {
   "pages": [
     {
-      "id": "Points",
+      "id": "Page1",
       "isDefault": true
-    },
-    {
-      "id": "Reward History",
-      "isDefault": false
-    },
-    {
-      "id": "Post Rewards",
-      "isDefault": false
     }
   ],
   "viewMode": false,
